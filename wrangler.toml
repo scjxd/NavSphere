@@ -6,10 +6,10 @@ pages_build_output_dir = ".vercel/output/static"
 
 
 [env.production.vars]
-GITHUB_ID = "Ov23lig3bTXpZHrPO1c8"
-GITHUB_OWNER = "tianyaxiang"
-GITHUB_REPO = "NavSphere"
-GITHUB_BRANCH = "main"
-NEXTAUTH_URL = "https://dh.leti.ltd/api/auth"
-NEXT_PUBLIC_API_URL="https://dh.leti.ltd"
+GITHUB_ID = "Ov23liNMVhePVjCbadHa"  # 在 GitHub OAuth App 中的 Client ID
+GITHUB_OWNER = "scjxd"             # GitHub 用户名
+GITHUB_REPO = "NavSphere"          # GitHub 仓库名
+GITHUB_BRANCH = "main"             # GitHub 分支名
+NEXTAUTH_URL = "https://navsphere-amr.pages.dev//api/auth"  # Cloudflare Pages 的域名（或者你自定义的域名）加/api/auth
+NEXT_PUBLIC_API_URL="https://navsphere-amr.pages.dev/" # Cloudflare Pages 的域名（或者你自定义的域名）
 
